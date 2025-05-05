@@ -192,6 +192,13 @@ rebuild_firmware() {
         \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
+        kmod-usb-ohci kmod-usb-uhci kmod-usb2 kmod-usb-ehci kmod-usb3 \
+        kmod-mii kmod-usb-wdm kmod-usb-acm \
+        kmod-usb-serial kmod-usb-serial-wwan kmod-usb-serial-option kmod-usb-serial-qualcomm \
+        kmod-usb-storage kmod-usb-storage-uas kmod-nls-utf8 kmod-macvlan usbutils \
+        kmod-usb-net kmod-usb-net-cdc-ether kmod-usb-net-cdc-ncm kmod-usb-net-cdc-mbim kmod-usb-net-rndis kmod-usb-net-qmi-wwan \
+        kmod-usb-net-rtl8150 kmod-usb-net-rtl8152 kmod-usb-net-asix kmod-usb-net-asix-ax88179 \
+        kmod-usb-net-huawei-cdc-ncm kmod-usb-net-sierrawireless kmod-usb-serial-sierrawireless \
         ${config_list} \
         "
 
